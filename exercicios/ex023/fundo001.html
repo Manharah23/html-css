@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagens de fundo</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div{
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+        }
+        div>p{
+            margin: 30px;
+        }
+        p{
+            text-indent: 30px;
+        }
+        div#q1{
+            background-color: skyblue;
+
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom,red,yellow);
+        }
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt excepturi quis doloremque architecto eum hic voluptatem natus, inventore nam libero! Aliquam ab voluptate numquam iste cumque harum modi temporibus! <ul><li>fff</li></ul></p></div>
+    
+    <div class="quadrado" id="q2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, animi. Dolorum inventore quaerat atque eius voluptate aut nesciunt, consequatur sit. Rem eos aut perspiciatis nam totam doloremque accusantium placeat rerum.
+        <ul><li>sadsfd</li></ul>
+    </p></div>
+
+    <div class="quadrado" id="q3"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum obcaecati sit dicta molestias. Odit aperiam nostrum corporis necessitatibus, illum mollitia eum, ut tenetur odio, accusantium numquam ipsum. Odio, commodi adipisci? <ul><li>faee</li></ul></p></div>
+</body>
+</html>
