@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:rgba(29, 238, 29, 0.425);
+            font-style: italic;
+            border-radius: 10px 10px 10px 10px;
+        }
+        h1{
+            width: 10;
+            box-shadow: inset 2px 1px 14px 6px rgb(9, 7, 165);
+            margin: 10px;
+        }
+        header{
+            background-color: rgba(41, 31, 16, 0.651);
+            padding: 10px;
+            margin: 10px;
+            text-decoration:underline;
+            font-style: italic;
+             color: rgb(228, 219, 100);
+             background-attachment: fixed;
+             border-radius:10px 0px 10px 0px;
+        }
+        nav{
+            color:rgba(235, 183, 13, 0.651);
+            box-shadow: 10px;
+        }
+        
+        main{
+            background-color: darkolivegreen;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        article
+        {
+            background-color: rgba(84, 88, 88, 0.205);
+            margin: -10px 5px;
+        }
+        article>aside{
+            background-color: rgb(104, 59, 59);
+        }
+        footer{
+            background-color:black;
+            text-align: center;
+            text-decoration: underline;
+            color: white;
+            font-style: italic;
+            margin:-7px 10px 10px 10px ;
+        
+        }
+        footer>p{
+            margin: 0px;
+        }
+        aside>p{
+            text-align: right;
+        }
+        .prime{
+            background-color: #20ebe0;
+            box-shadow: 15px;
+            font-family: monospace;
+            font-style: normal;
+            border-radius: 10px;
+            
+        }
+        a:active{
+            background-color: seagreen;
+        }
+        .segu{
+            background-color: rgba(245, 229, 1, 0.877);
+            font-family: monospace;
+            box-shadow: 15px;
+            border-radius: 10px;
+        }
+        .terci{
+            background-color: #f08a06ef;
+            font-family: monospace;
+            box-shadow: 15px;
+            border-radius: 10px;
+        }
+        .quarti{
+            background-color: rgb(9, 255, 9);
+            font-family: monospace;
+            box-shadow: 15px;
+            border-radius: 10px;
+        }
+        .quinto{
+            background-color: rgb(228, 129, 0);
+            font-family: monospace;
+            box-shadow: 15px;
+            text-align: right;
+            margin: 10px;
+            border-radius: 10px
+        }
+        #visited{
+            content: ;
+            color: springgreen;
+        }
+        .king:hover{
+            background-color: 
+        }
+        .prime:hover{
+        background-color: crimson;
+        }
+        .segu:hover{
+          background-color: crimson;
+        }
+        .terci:hover{
+            background-color: crimson;
+        }
+        .quarti:hover{
+            background-color: crimson;
+        }
+        .quinto:hover{
+            background-color: crimson;
+        }
+        
+        a:active{
+            color: rgb(255, 0, 255);
+        }
+        a:visited{
+            color: rgb(4, 45, 99);
+        }
+        div:hover>p{
+            display:block;
+            background-color: rgb(156, 120, 20) ;
+            color: rgb(60, 235, 226);
+            margin: -7px 10px 10px 10px;
+            text-decoration: none;
+            background-attachment: fixed;
+        }
+        div>p{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+     <header>
+        <div>
+            <h1 class="king">Russia</h1>
+            <p>Rei Mundial</p>
+        </div>
+     </header>
+
+     <main>
+        <nav>
+            <button class="prime"><a href="seletores.html" target="_self">Tecnologia</a></button>
+            <button class="segu"><a href="#">Politica</a></button>
+            <button class="terci"><a href="#"> Esporte</a></button>
+            <button class="quarti"><a href="#">Medicina</a></button>
+        </nav>
+
+<section id="Noticias">
+        <h2>Noticias Sobre a Russia</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo aut ratione molestias sint laboriosam ab minima eligendi perspiciatis voluptatum eum dolorum veniam minus, earum dicta cum et culpa, quo quam!</p>
+           <aside>
+            <p>este Artigo foi desenvolvido pelo Prof Dr Engenheiro Magure</p>
+           </aside>
+</section>
+     </main>
+     <footer>
+       <p>Escrito pelo prof  Dr engenheiro Magure</p>
+      
+     </footer>
+     <button class="quinto"><a href="caixa01.html" target="_self">seguinte</a></button>
+    
+</body>
+</html>

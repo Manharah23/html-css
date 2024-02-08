@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(214, 188, 153, 0.87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(241, 166, 4);
+    
+}
+h1#principal{
+    text-align: center;
+     background-color: rgb(136, 94, 94);
+     text-decoration: underline;
+     font-style: italic;
+}
+
+p{
+    text-indent: 10px;
+     font-style: italic;
+}
+.basico{
+    color:#E18000 ;
+    font-weight: bolder;
+    
+}
+.intermediario{
+    color: #2aa71e;
+}
+.avancado{
+    color: rgba(245, 9, 56, 0.877);
+}
+.destaque{
+    background-color: rgba(46, 61, 104, 0.808);
+}
+.bemestudado{
+    color: #52fa04;
+}

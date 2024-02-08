@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: khaki;
+        }
+        h1 {
+            text-align: center;
+        }
+        div>p 
+        {
+            display:none;
+        }
+        div:hover >p {
+            display: block;
+            color: burlywood;
+            background-color: darkolivegreen;
+            width: 300px;
+        }
+        div:hover {
+            color: rgb(9, 200, 248);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo do uso do hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+<div>
+    <button>passe  o mouse aqui</button>
+    <p>muito importante....</p>    
+    
+</div>
+</body>
+</html>
