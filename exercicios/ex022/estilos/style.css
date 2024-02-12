@@ -73,18 +73,17 @@ main strong{
 
 nav{
     background-color: var(--cor5);
-    padding: 10PX;
     box-shadow: 0px 7px 7px rgb(82, 40, 40);
     border-radius: 7px;
-    
-}
-nav >a{
-    color:white;
     padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: .8s;
+}
+nav > a{
+        color:white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: .8s;
 }
 nav > a:hover{
     background-color: rgb(11, 221, 39);

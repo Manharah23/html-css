@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicao dos fundos</title>
+    <style>
+        body{
+            
+        }
+        div.bloco{
+           background-image: url(imagens/wallpaper003.jpg);
+           margin:10px ;
+           height: 200px;
+           border-radius: 20px;
+           border: 1px solid black;
+        }
+div#q1{
+    background-position: left top ;
+}
+div#q2{
+    background-position:left center ;
+}
+div#q3{
+    background-position:right bottom;
+}
+div#q4{
+    background-position: center center ;
+}
+#lq{
+    border-radius: 7px;
+    text-indent: 1px;
+    transition-duration: .9s;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+  nav{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  
+}
+    
+#lq:hover{
+    background-color: rgb(11, 221, 39);
+      
+}
+    </style>
+</head>
+<body>
+    <div class="bloco" id="q1">
+       <p></p>
+    </div>
+    <div class="bloco" id="q2">
+
+    </div>
+    <div class="bloco" id="q3">
+         <nav>
+             <a href="#" id="lq">noticias</a>
+             <a href="#" id="lq">novidades</a>
+             <a href="#" id="lq">curiosidades</a>
+         </nav>
+    </div>
+    <div class="bloco" id="q4">
+
+    </div>
+</body>
+</html>
