@@ -74,9 +74,6 @@ section.imagem>p{
     display: inline-block;
     padding: 5px;
 }
-section#img01{
-    background-image:url('../projecto\ cordel/');
-}
 
 footer{
     background-color: black;
