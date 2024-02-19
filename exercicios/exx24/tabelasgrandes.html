@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        body{
+             font-family: Arial, Helvetica, sans-serif;
+            background-attachment: fixed;
+            background-image: url('imag/Flag_of_Mozambique.svg.png');
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+        }
+        h1{
+            background-image:linear-gradient(to bottom,#007268,white,gray,white,yellow,red);
+            border-radius: 0px 10px 0px 10px;
+            
+          
+        }
+        table{
+            width: 700px;
+            height: 600px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+            width: auto;
+        }
+        tfoot{
+            text-decoration:underline ;
+        
+        }
+        
+        td{
+            color:lawngreen;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Estatisticas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Bairro</th>
+                <th>Populacao</th>
+                <th>Nivel de Vida</th>
+                <th>Escolas Primarias</th>
+                <th>Escolas Secundarias</th>
+                <th>Escolas privadas</th>
+                <th>Organizacao Urbana</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ponta-Gea</td>
+                <td>39189</td>
+                <td>Classe Elevada</td>
+                <td>5</td>
+                <td>3</td>
+                <td>7</td>
+                <td>Bem Organizado</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Baixa</td>
+                <td>45189</td>
+                <td>Classe Media</td>
+                <td>15</td>
+                <td>6</td>
+                <td>12</td>
+                <td>Bem Organizado</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <strong>
+                    <th>910000</th>
+                </strong>
+                <th>///////</th>
+                <th>20</th>
+                <th>9</th>
+                <th>19</th>
+                <th>///////</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
