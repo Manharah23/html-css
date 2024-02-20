@@ -15,10 +15,20 @@
         h1{
             background-image:linear-gradient(to bottom,#007268,white,gray,white,yellow,red);
             border-radius: 0px 10px 0px 10px;
+            text-align: center;
             
           
         }
+        caption{
+            width: 700px;
+            border-collapse: collapse;
+            font-size: 1.5em;
+            background-color: lightgray;
+            padding: 10px;
+            font-weight: bold;
+        }
         table{
+            background-color: ;
             width: 700px;
             height: 600px;
             border-collapse: collapse;
@@ -34,28 +44,31 @@
         }
         
         td{
-            color:lawngreen;
+            color:rgb(0, 252, 231);
+            text-align: left;
         }
         thead, tfoot{
             background-color: gray;
             color: white;
             
         }
+        
     
     </style>
 </head>
 <body>
     <h1>Exemplo de Estatisticas</h1>
     <table>
+        <caption>Dados do Censo e do Desenvolvimento Regional da provincia de Sofala </caption>
         <thead>
             <tr>
-                <th>Bairro</th>
-                <th>Populacao</th>
-                <th>Nivel de Vida</th>
-                <th>Escolas Primarias</th>
-                <th>Escolas Secundarias</th>
-                <th>Escolas privadas</th>
-                <th>Organizacao Urbana</th>
+                <th scope="col">Bairro</th>
+                <th scope="col">Populacao</th>
+                <th scope="col">Nivel de Vida</th>
+                <th scope="col">Escolas Primarias</th>
+                <th scope="col">Escolas Secundarias</th>
+                <th scope="col">Escolas privadas</th>
+                <th scope="col">Organizacao Urbana</th>
             </tr>
         </thead>
         <tbody>
@@ -80,11 +93,46 @@
                 <td>Bem Organizado</td>
             </tr>
         </tbody>
+        <tbody>
+            <td>Estoril</td>
+            <td>45189</td>
+            <td>Classe Media</td>
+            <td>15</td>
+            <td>6</td>
+            <td>12</td>
+            <td>Bem Organizado</td>
+        </tbody>
+        <tbody>
+            <td>Macurngo</td>
+            <td>45189</td>
+            <td>Classe Media</td>
+            <td>15</td>
+            <td>6</td>
+            <td>12</td>
+            <td>Bem Organizado</td>
+        </tbody>
+        <tbody> <td>Manga</td>
+            <td>45189</td>
+            <td>Classe Media</td>
+            <td>15</td>
+            <td>6</td>
+            <td>12</td>
+            <td>Bem Organizado</td>
+        </tbody>
+        <tbody>
+            <td>Munhava</td>
+            <td>45189</td>
+            <td>Classe Media</td>
+            <td>15</td>
+            <td>6</td>
+            <td>12</td>
+            <td>Bem Organizado</td>
+        </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <strong>
-                    <th>910000</th>
+                    <th scope="row">910000</th>
                 </strong>
                 <th>///////</th>
                 <th>20</th>
