@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit',sans-serif;
+}
+
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #212121;
+color: white;
+}
+
+.text-animado{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.text-animado span{
+    position: relative;
+}
+.text-animado span::before{
+    content: "";
+    color: #ff007b;
+    animation: palavras 20s infinite;
+}
+.text-animado span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #ff007b;
+    right: -10px;
+    animation: cursor .8s infinite, digita 20s steps(20) infinite;
+    width: calc(100% + 15px);
+    background-color: #212121;
+}
+@keyframes digita{
+    
+   10%, 15%, 30%, 35%, 50%, 55%,70%, 75%, 90%, 95%{
+    width: 0;
+   }  
+   
+   5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+    width: calc(100% + 15px);
+} 
+}
+@keyframes cursor {
+    0%{
+        border-left: 2px solid #212121;
+    }
+}
+
+@keyframes palavras {
+      0%,20%{
+        content: "esta num site certo!";
+      }
+      21%,40%{
+        content: "desfrute do meu site!";
+             }
+      41%,60%{
+        content:"vai gostar do meu site!";
+             }
+      61%,80%{
+            content:"gotou do conteudo?";
+             }
+      81%,100%{
+            content:"obrigado pela visita!";
+               }
+}
