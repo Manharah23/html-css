@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+ }
+
+ /*ESTILO DO CABECALHO*/
+
+ header{
+    padding: 40px 4%;
+ }
+
+  header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+ }
+ header a:hover{
+     color: white;
+     transform: scale(1.05);
+ }
+ header nav ul{
+    list-style-type: none;
+ }
+header nav ul li{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+header .btn-contacto button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-image: linear-gradient(to right,rgba(0, 0, 255, 0.925),rgba(235, 9, 54, 0.877));
+    /*background-color:rgba(177, 20, 51, 0.829);*/
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contacto button:hover{
+    box-shadow: 0px 0px 8px rgba(231, 6, 6, 0.822);
+}
+
