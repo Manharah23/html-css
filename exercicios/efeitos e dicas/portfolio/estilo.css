@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /*ESTILO GERAL*/
+
 *{
     margin: 0;
     padding: 0;
@@ -29,6 +30,19 @@ body{
     cursor: pointer;
     transition: .2s;
  }
+ h2.titulo{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+ }
+
+ h2.titulo span{
+    color: rgb(32, 32, 136);
+ }
+
+
+
+
 
  /*ESTILO DO CABECALHO*/
 
@@ -107,4 +121,32 @@ section.toposite.flex{
     100%{
         top: 30px;
     }
+}
+
+/*especialidades*/
+
+section.Esp{
+    padding: 40px 4%;
+}
+section.Esp .flex{
+    gap: 60px;
+}
+.esp-box{
+    color: white;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .3s;
+}
+.esp-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.425);
+}
+.esp-box i{
+    font-size: 75px;
+    color: rgb(13, 13, 202);
+}
+.esp-box h3{
+    font-size: 28px;
+    margin: 15px 0;
 }
