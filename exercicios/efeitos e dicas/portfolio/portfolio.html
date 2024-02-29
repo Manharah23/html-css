@@ -9,6 +9,8 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+ <script src="menu.js" defer></script>
+
     <title>portfolio</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -29,7 +31,29 @@
                  <li><a href="#">Conquistas</a>
                </ul>
             </nav>
-            <div class="btn-contacto"><a href="#"><button>Faculade Preparatoria</button></a></div>
+            <div class="btn-contacto"><a href="#"><button>Curso Preparatorio</button></a>
+            </div><!--btncontacto-->
+            <div class="btn-abrirmenu" id="btnmenu">
+                <i class="bi bi-list"></i>
+            </div><!--btnabrirmenu-->
+            <div class="menumobile" id="menumobile">
+                <div class="btnfechar">
+                    <i class="bi bi-x"></i>
+                </div><!--btnfechar-->
+                <nav>
+                    <ul>
+                     <li><a href="#">Sobre nos</a></li>
+                     <li><a href="#">Faculdades</a>
+                     <li><a href="#">Especialidades</a>
+                     <li><a href="#">Laboratorios</a>
+                     <li><a href="#">Conquistas</a>
+                      <a href="#">Curso Preparatorio</a>   
+                   </ul>
+                </nav>
+            </div><!--menumobile-->
+            <div class="overlaymenu" id="overlaymenu">
+                
+            </div><!--overlaymenu-->
         </div>
      </header>
 
