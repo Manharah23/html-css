@@ -91,6 +91,7 @@ header nav.menu-destop ul li {
 .btn-abrirmenu i{
     color: blue;
     font-size: 40px;
+   
 }
 
 .overlaymenu{
@@ -494,4 +495,12 @@ footer .line-footer p a {
         text-align: center;
     }
     
+}
+.dono{
+    color: white;
+}
+.dono span{
+    font-size: 20px;
+    font-weight: 700;
+
 }
