@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro programa</title>
+    <title>js</title>
     <style>
         body{
             background-color: aquamarine;
             color: black;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
-        }
-        h1{
             text-align: center;
-            background-color: rgba(120, 38, 197, 0.555);
+            padding-top:20px ;
         }
+       
     </style>
 </head>
 <body>
-    <h1>Ola ,Mundo!</h1>
-    <p>ja me livrei da maldicao</p>
+   
     <script>
-       window.alert('minha primeira mensagem!')
-        window.confirm('estas a gostando do meu site?'
-        )
-        window.prompt('qual e o seu nome?')
+        var nome = window.prompt('Digite seu nome: ')
+         document.write(`ola <strong>${nome}</strong>,!  seu nome tem <strong>${nome.length}</strong> letras. </br>`)
+         document.write(`seu nome em maiusculas fica <strong>${nome.toUpperCase()}</strong> </br>`) 
+         document.write(`seu nome em minisculas fica <strong>${nome.toLowerCase()}</strong>`)
     </script>
 </body>
 </html>
