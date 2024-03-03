@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>eventos DOM-somando numeros</title>
+    <style>
+        body{
+            font:normal 15pt arial;
+        }
+        h1{
+            margin-top: 60px;
+            color: rgb(255, 136, 127);
+        }
+        input{
+            margin-top: 20px;
+            border-radius: 10px;
+            
+        }
+        div#res{
+            margin-top: 10px;
+            color: chocolate;
+            margin-top: 10px;
+            position: relative;
+            
+        }
+        #res i{
+            font-size: 30px;
+            color: green;
+           
+        }
+        #res strong{
+            color:green;
+        }
+        #brr{
+            width: 430px;
+            height: 3px;
+            background-color: black;
+        }
+        #br{
+            width: 430px;
+            height: 3px;
+            margin-top: 40px;
+            background-color: black
+        }
+        h1 span{
+            color: green;
+        }
+        nav ul li a{
+            display: flex;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <h1><span>SOMANDO </span>VALORES</h1>
+    <div id="brr"></div>
+
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()">
+     <div id="res">
+        <p><i class="bi bi-arrow-bar-right"></i></p>
+     </div>
+    <script>
+    function somar() {
+        var tn1 = window.document.getElementById('txtn1')
+        var tn2 = window.document.querySelector('input#txtn2')
+        var res = window.document.getElementById('res')
+        var n1 = Number(tn1.value)
+        var n2 = Number(tn2.value)
+        var s = n1 + n2
+         res.innerHTML =`A soma entre os valores, <strong>${n1}</strong> e <strong>${n2}</strong> e igual a <strong> ${s}</strong> Unidades`
+
+    }
+        
+    </script>
+    <div id="br"></div>
+</body>
+</html>
