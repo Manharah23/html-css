@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor de moedas</title>
+    <style>
+        body{
+            background-color: rgb(212, 11, 11);
+            align-items: center;
+        }
+        h1{
+            margin-top: 25px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>conversor de Real para <strong>DOLAR</strong></h1>
+    <input placeholder="Valor em Reais" type="number">
+    <button onclick="converter()">converter</button>
+    
+
+</body>
+<script>
+    const valorreal = document.querySelector("input")
+   function converter(){
+    const valorconv = valorreal.value / 5
+    alert(`corresponde a ${valorconv} dolares`)
+   }
+
+
+</script>
+</html>
