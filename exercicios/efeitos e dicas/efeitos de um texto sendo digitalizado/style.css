@@ -10,7 +10,7 @@
 body{
 height: 100vh;
 display: flex;
-align-items: center;
+align-items:center ;
 justify-content: center;
 background-color: #212121;
 color: white;
@@ -57,16 +57,16 @@ color: white;
 
 @keyframes palavras {
       0%,20%{
-        content: "esta num site certo!";
+        content: " Voce esta num site certo!";
       }
       21%,40%{
         content: "desfrute do meu site!";
              }
       41%,60%{
-        content:"vai gostar do meu site!";
+        content:"Voce vai gostar do meu site!";
              }
       61%,80%{
-            content:"gotou do conteudo?";
+            content:"Sinta-se em CASA!";
              }
       81%,100%{
             content:"obrigado pela visita!";
