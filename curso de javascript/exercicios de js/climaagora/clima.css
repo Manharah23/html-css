@@ -25,10 +25,11 @@ body{
 /*formulario*/
 
 .form h3{
-    margin-bottom:1rem ;
+    margin-bottom: 1rem ;
 }
 
 .form-input-conteiner{
+
     display: flex;
 }
 
@@ -53,7 +54,7 @@ body{
 /*clima*/
 
 #weather-data{
-    border-top: 1px solid white ;
+    border-top: 3px solid white ;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     text-align: center;
@@ -74,7 +75,7 @@ body{
 
 
 #description-conteiner{
-    display: flex;
+    /*display: ;*/
     justify-content: center;
     align-items: center;
     margin: .6rem 0;
@@ -87,6 +88,7 @@ body{
 }
 
 #details-conteiner #humidade {
+    display: flex;
     border-right: 1px solid #fff;
     margin: 0.6rem;
     padding: 0.6rem;
