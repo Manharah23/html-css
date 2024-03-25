@@ -2,9 +2,9 @@
 
  function parimp(n){
    if (n%2 == 0){
-    return 'par!'
+    return 'o numero e par!'
    } else{
-    return 'impar!'
+    return 'o numero e impar!'
    }
  }
 
