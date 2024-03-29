@@ -2,7 +2,7 @@
 let num = 18
 
 
-res = (!(num%2) ? " o numero e par!" : "o numero e impar!")
+res = (!(num%2) ? " o numero e par!" : "o numero e impar!");
 
 console.log(res)
 
