@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soma</title>
+    <style>
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+            font-size: larger;
+        }
+        body{
+            background-color:darkolivegreen;
+
+        }
+        #d1,#d2,#d3,#d4{
+            
+            text-align: justify;
+            align-items: center;
+            justify-content: center;
+        } 
+        
+        span{
+            color: yellow;
+        }
+
+        button{
+            border-radius: 8px;
+            background-color: darkgreen;
+            color: white;
+            margin-top: 10px;
+            justify-content: center;
+            cursor: pointer;
+            transition: .6s;
+            border: none;
+            padding: 5px;
+            outline-color: aqua;
+
+        }
+        .pai button:hover{
+            background-color: darkgreen;
+            transform: scale(1.1);
+            color:yellow;
+            border: 3px solid;
+            box-shadow: 5px 5px 30px rgba(255, 255, 0, 0.733);
+            margin 50px;
+            outline-color: aqua;
+
+           /*padding-left: 50%;*/
+        }
+        
+    </style>
+</head>
+<body>
+<div class="pai">
+    
+         <div id="d1">Franko</div>
+         <div id="d2">No Limit</div>
+         <div id="d3">Aprendendo o <span>  JS</span></div>
+        <button  id="d4" onclick="mudartexto()">Mudar Texto</button>
+</div>
+
+
+
+    <script src="funcoes.js"></script>
+</body>
+</html>

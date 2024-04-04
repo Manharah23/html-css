@@ -1,9 +1,15 @@
 
+
+
+const obj= document.getElementById("div")
+
 let num=[10,20,30,40,50,60,70,80,90,100]
 
-
+//num.sort()
+//num.push =200
+//num[0] = 1
 for(n in num){
-    console.log(num[n])
+  console.log(num[n])
 }
 
 for(let i=0;i<num.length;i++){
