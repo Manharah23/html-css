@@ -10,7 +10,7 @@ function soma(n1,n2){
 
 function soma1(n1=0,n2=0){
     let res
-    res= n1+n2
+    res= n1 + n2
     return res
 }
 let res_soma=soma1(2,40)
